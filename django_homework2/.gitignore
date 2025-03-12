@@ -1,0 +1,25 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+
+# 환경 설정 관련
+.env
+.venv/
+venv/
+poetry.lock
+
+# 데이터베이스 파일
+db.sqlite3
+*.db
+
+# Django 마이그레이션 캐시
+migrations/**/__pycache__/
+
+# 에디터 및 OS 관련
+.vscode/
+.idea/
+.DS_Store
+*.swp
